@@ -2,13 +2,281 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-<!-- Mirrored from srihariomtravels.com/Testimonials.aspx by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Oct 2025 10:12:00 GMT -->
+<!-- Mirrored from srihariomtravels.com/Gallery.aspx by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Oct 2025 10:11:46 GMT -->
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<style>
+    /* Section */
+    #lto-main-section {
+        padding: 30px 15px;
+        background-color: #f4f6f8;
+    }
+
+    /* Container */
+    #lto-container {
+        max-width: 1100px;
+        margin: auto;
+        background: #ffffff;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.06);
+    }
+
+    /* Headings */
+    .lto-main-heading {
+        font-size: 2.4rem;
+        color: #1c2c4c;
+        margin-bottom: 20px;
+    }
+
+    .lto-sub-heading {
+        font-size: 1.8rem;
+        margin-top: 35px;
+        margin-bottom: 15px;
+        color: #e85c00;
+    }
+
+    .lto-place-title {
+        font-size: 1.3rem;
+        color: #222;
+        margin-bottom: 6px;
+    }
+
+    /* Paragraph */
+    .lto-paragraph {
+        font-size: 1.05rem;
+        line-height: 1.8;
+        margin-bottom: 15px;
+        color: #444;
+    }
+
+    /* Place Box */
+    .lto-place-box {
+        background: #f7f7f7;
+        padding: 18px 22px;
+        border-left: 4px solid #ff6a00;
+        border-radius: 5px;
+        margin-bottom: 18px;
+    }
+
+    /* Responsive */
+    @media (max-width: 992px) {
+        #lto-container {
+            padding: 30px;
+        }
+
+        .lto-main-heading {
+            font-size: 2rem;
+        }
+
+        .lto-sub-heading {
+            font-size: 1.6rem;
+        }
+    }
+
+    @media (max-width: 576px) {
+        #lto-container {
+            padding: 22px;
+        }
+
+        .lto-main-heading {
+            font-size: 1.7rem;
+        }
+
+        .lto-sub-heading {
+            font-size: 1.4rem;
+        }
+
+        .lto-place-title {
+            font-size: 1.15rem;
+        }
+
+        .lto-paragraph {
+            font-size: 0.95rem;
+        }
+    }
+
+
+
+    /* Section Wrapper */
+    #lto-food-package-section {
+        padding: 30px 15px;
+        background-color: #f4f6f8;
+    }
+
+    /* Container */
+    #lto-food-package-container {
+        max-width: 1100px;
+        margin: auto;
+        background: #ffffff;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.06);
+    }
+
+    /* Section Headings */
+    .lto-section-heading {
+        font-size: 1.9rem;
+        color: #e85c00;
+        margin-bottom: 15px;
+        margin-top: 35px;
+    }
+
+    /* Text */
+    .lto-text {
+        font-size: 1.05rem;
+        color: #444;
+        line-height: 1.8;
+        margin-bottom: 12px;
+    }
+
+    /* Highlight Text */
+    .lto-highlight-text {
+        font-weight: 500;
+        color: #1c2c4c;
+    }
+
+    /* Lists */
+    .lto-food-list,
+    .lto-package-list {
+        list-style: none;
+        padding-left: 0;
+        margin: 15px 0 25px 0;
+    }
+
+    .lto-food-list li,
+    .lto-package-list li {
+        position: relative;
+        padding-left: 26px;
+        margin-bottom: 10px;
+        font-size: 1.05rem;
+        color: #333;
+    }
+
+    .lto-food-list li::before {
+        content: "🍽️";
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .lto-package-list li::before {
+        content: "✔";
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: #ff6a00;
+        font-weight: bold;
+    }
+
+    /* Note Text */
+    .lto-note-text {
+        font-size: 0.95rem;
+        color: #666;
+        font-style: italic;
+    }
+
+    /* Responsive */
+    @media (max-width: 992px) {
+        #lto-food-package-container {
+            padding: 30px;
+        }
+
+        .lto-section-heading {
+            font-size: 1.6rem;
+        }
+    }
+
+    @media (max-width: 576px) {
+        #lto-food-package-container {
+            padding: 22px;
+        }
+
+        .lto-section-heading {
+            font-size: 1.4rem;
+        }
+
+        .lto-text,
+        .lto-food-list li,
+        .lto-package-list li {
+            font-size: 0.95rem;
+        }
+    }
+
+
+    /* Section Wrapper */
+    #lto-besttime-conclusion-section {
+        padding: 30px 15px;
+        background-color: #ffffff;
+    }
+
+    /* Container */
+    #lto-besttime-conclusion-container {
+        max-width: 1100px;
+        margin: auto;
+        padding: 40px;
+        border-radius: 10px;
+        background: #f9fafb;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    }
+
+    /* Headings */
+    #lto-besttime-conclusion-container .lto-section-heading {
+        font-size: 1.9rem;
+        color: #1c2c4c;
+        margin-bottom: 15px;
+        margin-top: 30px;
+    }
+
+    /* Paragraph */
+    #lto-besttime-conclusion-container .lto-text {
+        font-size: 1.05rem;
+        line-height: 1.8;
+        color: #444;
+        margin-bottom: 15px;
+    }
+
+    /* Highlight Text */
+    #lto-besttime-conclusion-container .lto-highlight-text {
+        font-size: 1.1rem;
+        font-weight: 500;
+        color: #e85c00;
+        margin-top: 20px;
+    }
+
+    /* Responsive */
+    @media (max-width: 992px) {
+        #lto-besttime-conclusion-container {
+            padding: 30px;
+        }
+
+        #lto-besttime-conclusion-container .lto-section-heading {
+            font-size: 1.6rem;
+        }
+    }
+
+    @media (max-width: 576px) {
+        #lto-besttime-conclusion-container {
+            padding: 22px;
+        }
+
+        #lto-besttime-conclusion-container .lto-section-heading {
+            font-size: 1.4rem;
+        }
+
+        #lto-besttime-conclusion-container .lto-text {
+            font-size: 0.95rem;
+        }
+
+        #lto-besttime-conclusion-container .lto-highlight-text {
+            font-size: 1rem;
+        }
+    }
+</style>
 
 <head>
     <title>
-        Customer Testimonial
+        Sri Hari Om Travels
     </title>
     <meta charset="utf-8" />
     <meta name="title" content="Nepal Tour Package  From Gorakhpur" />
@@ -61,77 +329,18 @@
     </script>
 
 
-    <script src="../www.google.com/recaptcha/api8c9b.js?onload=renderRecaptcha&amp;render=explicit"></script>
-    <script type="text/javascript">
-        var your_site_key = '6LdDUS8qAAAAAOrd_1y0qaJ_KHemrpWfcEJRC4rJ';
-        //var your_site_key = '6LeyUi8qAAAAAGb_qEqxZKOyFupISJ0M2ceIKLW8';
-        var renderRecaptcha = function () {
-            grecaptcha.render('ReCaptchContainer', {
-                'sitekey': '6LdDUS8qAAAAAOrd_1y0qaJ_KHemrpWfcEJRC4rJ',
-                //'sitekey': '6LeyUi8qAAAAAGb_qEqxZKOyFupISJ0M2ceIKLW8',
-                'callback': reCaptchaCallback,
-                theme: 'light', //light or dark
-                type: 'image', // image or audio
-                size: 'normal'//normal or compact
-            });
-        };
-        var reCaptchaCallback = function (response) {
-            if (response !== '') {
-                document.getElementById('lblMessage1').Text = "Invalid captcha";
-            }
-        };
-    </script>
 </head>
 
 <body>
-    <form method="post" action="https://srihariomtravels.com/Testimonials.aspx"
-        onsubmit="javascript:return WebForm_OnSubmit();" id="form1" enctype="multipart/form-data">
+    <form method="post" action="https://srihariomtravels.com/Gallery.aspx" id="form1">
         <div class="aspNetHidden">
-            <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
-            <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
             <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE"
-                value="gr0wY/Fh2Vf5MGu4fBT2OEJin0sosj7BjbZ66ChXHSXolRCP/8KBlKyOIc6mxqzaQ5gziIcolBrlkAVixLpDhEDJ26VtWlhjrCuYmYGPgNPFy+KaBOis8ILpf9NcJd0DOdgKLrn/sysuM6PY+WU6nA==" />
+                value="T2jE8mxUMqi6upLWMFfn1QNov2vbzTY0MxA1nIqNWVApz/DYroeVZMa9xasXFboyLlLGJO0drQTisYwaIggqpZpoyH+hDcm27kZC82Y7ulgdPLud+YJMgqJ/HO3kY/+d6UIGQ08aAnbf5rYIbtJuko4qDWiH2CMVyTjlnLRvlLIWhUWJW5pRFKcJ44XfYtqMOcf0d6oz0CIWZSJWOsga3hSPwNcFqoARIYqOiGiJVWktiVzVMu1xh8Irrle3KsMBnC0QTSIFbpAsfLAYUZoQ88nO0makGiyhiIGb7o07ip9LWm36Z5wPCJHCDyPqfQ3TDR7eTmpiQ/hDfQU7ghCcqu3FdD1q81sm3twmCqTTUTM3//DGkvjb7ENgX6dhBxgj7gL7bjuABKuxVqjfiJG6Cy4Qs0C7UedYe+TYFHJb570VII/0NKjGx0CEXNmeHJ1HuhJ91SI0X6PIT1DgXkyxBIV9NfkIEYXPhuLlKX55YeAC63ux21J+VdIP379amcBT8oh3Da77Gw7KQ0odffmHwFTaZw0vLWu+aM/vwR0eTrHuYE2prhNkjIukwfXKLAK2tcur5ZV+N8spXyM1BWZxZGq1Xt24tesfB2AMHWUY7JL0F0EI7UcX4JS2x7SLAPhF3S3es8nKZxb8nbeq+M27gFybjVGIvI9IjLAmzA5+npcdZYYD/iP7iSqpnhF8VnedAO5sCI4XyDr0M0BuxMY9n/xGq3MUD1EMn+DwvVyDWMA=" />
         </div>
 
-        <script type="text/javascript">
-            //<![CDATA[
-            var theForm = document.forms['form1'];
-            if (!theForm) {
-                theForm = document.form1;
-            }
-            function __doPostBack(eventTarget, eventArgument) {
-                if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
-                    theForm.__EVENTTARGET.value = eventTarget;
-                    theForm.__EVENTARGUMENT.value = eventArgument;
-                    theForm.submit();
-                }
-            }
-            //]]>
-        </script>
-
-
-        <script
-            src="WebResource5726.js?d=pynGkmcFUV13He1Qd6_TZI4B29FnJg0DZN6DtGe8xuU2w07Ob7ZjXrmeaSnSXTAfRJIFSseQuNvABQrXKLlzKg2&amp;t=638901284248157332"
-            type="text/javascript"></script>
-
-
-        <script
-            src="WebResource8b8e.js?d=x2nkrMJGXkMELz33nwnakKB5t_Z4WzeP6k9CwD_3ERlStvxl4CN8EdfArfFdQkQbYh64WBXGmzVDwHcv8KI3Jswpq4hIGbqTiW1d0vxa-YU1&amp;t=638901284248157332"
-            type="text/javascript"></script>
-        <script type="text/javascript">
-            //<![CDATA[
-            function WebForm_OnSubmit() {
-                if (typeof (ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
-                return true;
-            }
-            //]]>
-        </script>
-
         <div class="aspNetHidden">
 
-            <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="35E74FE0" />
-            <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION"
-                value="b/Bu3uNCuZtYNl6vyOKmtrQkg9i69LhogQLapCE5Nan6zEw8LH81ApsKA2JLe1ncSjBUXz62gcMFm+fzpEwguTkof/mqqxsaanweEHIsu75ncJuokN3NuQ9ALs8fRxP03zc2jHc+GTru8UkP14xc/A1B+ZR9eZ9fPJskR3BRfvkBOfzNA5q+urubWicTUJU/VijQrM8WgMmo2eFb//9DEg==" />
+            <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="5EAD16E3" />
         </div>
         <div class="site-wrap">
 
@@ -169,6 +378,8 @@
                                 <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="Aboutus.html">About</a></li>
+
+                                    <!-- Services Dropdown -->
                                     <li class="has-children">
                                         <a href="Services.html">Tour Packages</a>
                                         <ul class="dropdown">
@@ -232,80 +443,184 @@
 
 
             <div class="site-blocks-cover inner-page-cover"
-                style="background-image: url('assets/images/kathmandu-to-nagarkot.jpg');" data-aos="fade"
+                style="background-image: url(assets/images/lucknowtour.jpeg);" data-aos="fade"
                 data-stellar-background-ratio="0.5">
                 <div class="container">
                     <div class="row align-items-center justify-content-center text-center">
                         <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
-                            <h1 class="text-white font-weight-light">Testimonials-</h1>
+                            <h1 class="text-white font-weight-light">LUCKNOW TOUR</h1>
 
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <h1 class="p-4" style="color: orangered; text-align: center; font-weight: bold">"Give Testimonials"</h1>
-                <div class="p-5">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <span id="ContentPlaceHolder1_Label5" style="font-weight: bold;">Name</span>
-                            <span id="ContentPlaceHolder1_RequiredFieldValidator1"
-                                style="color:Red;visibility:hidden;">*</span>
-                            <input name="ctl00$ContentPlaceHolder1$textbox1" type="text"
-                                id="ContentPlaceHolder1_textbox1" class="form-control" Placeholder="Enter Your Name" />
-                            <br />
-                            <span id="ContentPlaceHolder1_Label6" style="font-weight: bold;">Email</span>
-                            <span id="ContentPlaceHolder1_RequiredFieldValidator2"
-                                style="color:Red;visibility:hidden;">*</span>
-                            <input name="ctl00$ContentPlaceHolder1$textbox2" type="text"
-                                id="ContentPlaceHolder1_textbox2" class="form-control"
-                                Placeholder="Enter Your Email ID" />
-                            <span id="ContentPlaceHolder1_RegularExpressionValidator2"
-                                style="color:Red;white-space:nowrap;display:none;">Enter valid Email ID</span>
-                            <br />
-                        </div>
-                        <div class="col-md-6">
-                            <span id="ContentPlaceHolder1_Label3" style="font-weight: bold;">Mobile No</span>
-                            <span id="ContentPlaceHolder1_RequiredFieldValidator3"
-                                style="color:Red;visibility:hidden;">*</span>
-                            <input name="ctl00$ContentPlaceHolder1$textbox3" type="number" maxlength="10"
-                                id="ContentPlaceHolder1_textbox3" class="form-control" Placeholder="Enter Mobile No." />
-                            <span id="ContentPlaceHolder1_RegularExpressionValidator1"
-                                style="color:Red;white-space:nowrap;display:none;">Enter valid No.</span>
-                            <br />
-                            <div class="form-group">
-                                <label style="font-weight: bold;">Upload Photo</label>
-                                <span id="ContentPlaceHolder1_RequiredFieldValidator4"
-                                    style="color:Red;visibility:hidden;">*</span>
-                                <input type="file" name="ctl00$ContentPlaceHolder1$image" id="ContentPlaceHolder1_image"
-                                    class="form-control" />
-                            </div>
-                        </div>
+
+
+            <section id="lto-main-section">
+                <div id="lto-container">
+
+                    <h1 class="lto-main-heading">
+                        Lucknow Tour Package From Gorakhpur – A Royal Heritage Experience
+                    </h1>
+
+                    <p class="lto-paragraph">
+                        Lucknow, a capital of Uttar Pradesh, is known as the City of Nawabs for its royal background
+                        in history, culture, hospitality and mouthwatering food. If you are located in Gorakhpur
+                        and are looking for a brief holiday trip featuring a modern city experience and a glimpse
+                        of heritage, the Lucknow Tour Package from Gorakhpur is an ideal tour for you. This trip
+                        allows you to rest, entertain and create wonderful memories with your own.
+                    </p>
+
+                    <h2 class="lto-sub-heading">
+                        Why is Lucknow trip very easy from Gorakhpur?
+                    </h2>
+
+                    <p class="lto-paragraph">
+                        Gorakhpur to Lucknow distance is approximately 260 to 270 km. You can travel by AC car,
+                        tempo traveler or train. Many travel companies provide direct pickup and drop service.
+                        So, you don’t need to worry about transport or route. The travel is smooth and comfortable.
+                    </p>
+
+                    <h2 class="lto-sub-heading">
+                        Best Places Covered in This Package
+                    </h2>
+
+                    <div class="lto-place-box">
+                        <h3 class="lto-place-title">1) Bara Imambara</h3>
+                        <p class="lto-paragraph">
+                            This is the most famous monument in Lucknow. The architecture is grand and amazing.
+                            The Bhool Bhulaiya maze inside is very unique and adventurous.
+                        </p>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <span id="ContentPlaceHolder1_lbl3" style="font-weight: bold;">Your Message</span>
-                            <span id="ContentPlaceHolder1_RequiredFieldValidator5"
-                                style="color:Red;visibility:hidden;">*</span>
-                            <textarea name="ctl00$ContentPlaceHolder1$textbox4" rows="6" cols="20"
-                                id="ContentPlaceHolder1_textbox4" class="form-control" Placeholder="Enter Your Msg..">
-</textarea>
-                        </div>
+
+                    <div class="lto-place-box">
+                        <h3 class="lto-place-title">2) Chota Imambara</h3>
+                        <p class="lto-paragraph">
+                            This place is beautiful, peaceful and perfect for photography. It shows the royal art
+                            of Awadh culture.
+                        </p>
                     </div>
+
+                    <div class="lto-place-box">
+                        <h3 class="lto-place-title">3) Rumi Darwaza</h3>
+                        <p class="lto-paragraph">
+                            It is one of the main landmarks of Lucknow. People take pictures here because it looks
+                            like a giant gateway.
+                        </p>
+                    </div>
+
+                    <div class="lto-place-box">
+                        <h3 class="lto-place-title">4) Ambedkar Park / Janeshwar Mishra Park</h3>
+                        <p class="lto-paragraph">
+                            These modern parks are very big and well-maintained. Good for family walks, relaxing
+                            and evening photos.
+                        </p>
+                    </div>
+
+                    <div class="lto-place-box">
+                        <h3 class="lto-place-title">5) Gomti Riverfront</h3>
+                        <p class="lto-paragraph">
+                            A beautiful riverside area with lighting at night. This is a good place to see the
+                            modern side of Lucknow.
+                        </p>
+                    </div>
+
+                    <div class="lto-place-box">
+                        <h3 class="lto-place-title">6) Hazratganj Market</h3>
+                        <p class="lto-paragraph">
+                            Perfect market for shopping perfumes, chikan clothes, bags and gifts.
+                        </p>
+                    </div>
+
                 </div>
-            </div>
-            <div id="ReCaptchContainer"></div>
-            <span id="ContentPlaceHolder1_lblMessage1" style="color:Red;font-size:1em;font-weight:bold;"></span>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12" style="text-align: center">
-                        <input type="submit" name="ctl00$ContentPlaceHolder1$Button1" value="Send Testimonial"
-                            onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$Button1&quot;, &quot;&quot;, true, &quot;a&quot;, &quot;&quot;, false, false))"
-                            id="ContentPlaceHolder1_Button1" class="btn btn-lg btn-primary px-4 py-2 text-white" />
-                    </div>
+            </section>
+
+            <section id="lto-food-package-section">
+                <div id="lto-food-package-container">
+
+                    <!-- Food Experience -->
+                    <h2 class="lto-section-heading">Food Experience in Lucknow</h2>
+
+                    <p class="lto-text">
+                        Lucknow food is world famous.
+                    </p>
+
+                    <p class="lto-text">
+                        In this tour you can taste:
+                    </p>
+
+                    <ul class="lto-food-list">
+                        <li>Tunday Kabab</li>
+                        <li>Galouti Kabab</li>
+                        <li>Lucknow Biryani</li>
+                        <li>Malai Paan</li>
+                        <li>Basket Chaat</li>
+                        <li>Sheermal</li>
+                    </ul>
+
+                    <p class="lto-text lto-highlight-text">
+                        This food culture makes the trip more memorable.
+                    </p>
+
+                    <!-- Package Includes -->
+                    <h2 class="lto-section-heading">Package Usually Includes</h2>
+
+                    <ul class="lto-package-list">
+                        <li>Pickup from Gorakhpur</li>
+                        <li>AC vehicle transport</li>
+                        <li>Hotel stay in Lucknow (Standard / Deluxe)</li>
+                        <li>Local sightseeing</li>
+                        <li>Shopping time</li>
+                        <li>Drop back to Gorakhpur</li>
+                    </ul>
+
+                    <p class="lto-text lto-note-text">
+                        Some packages include lunch / dinner and special city guide (optional).
+                    </p>
+
+                    <!-- Best Time -->
+                    <h2 class="lto-section-heading">Best Time to Visit Lucknow</h2>
+
                 </div>
-                <br />
-            </div>
+            </section>
+
+
+            <section id="lto-besttime-conclusion-section">
+                <div id="lto-besttime-conclusion-container">
+
+                    <!-- Best Time to Visit -->
+                    <h2 class="lto-section-heading">Best Time to Visit Lucknow</h2>
+
+                    <p class="lto-text">
+                        October to March is the best weather, because city tours and walking become comfortable.
+                    </p>
+
+                    <p class="lto-text">
+                        However, Lucknow is a year-round destination.
+                    </p>
+
+                    <!-- Final Conclusion -->
+                    <h2 class="lto-section-heading">Final Conclusion</h2>
+
+                    <p class="lto-text">
+                        The Lucknow Tour Package from Gorakhpur is a perfect combination of heritage + modern culture
+                        + delicious food. With just one visit, you can visit ancient temples and monuments, magnificent
+                        parks, riverside views and well-known bazaars.
+                    </p>
+
+                    <p class="lto-text">
+                        This tour is ideal for couples, families, students and group tours. The travel is short,
+                        the places are amazing and the experience feels royal and stylish.
+                    </p>
+
+                    <p class="lto-highlight-text">
+                        If you want a short holiday trip that feels special and premium but stays within the UP region
+                        — then you should definitely choose Lucknow as your next destination.
+                    </p>
+
+                </div>
+            </section>
+
 
             <footer class="site-footer">
                 <div class="container">
@@ -379,88 +694,13 @@
                             <p>
                                 Copyright &copy;
                                 <script>document.write(new Date().getFullYear());</script>
-                                All rights reserved | <a href="" target="_blank"><span style="color: white;"></span></a>
+                                All rights reserved |<a href="" target="_blank"><span style="color: white;"></span></a>
                             </p>
                         </div>
                     </div>
                 </div>
             </footer>
         </div>
-
-        <script type="text/javascript">
-            //<![CDATA[
-            var Page_Validators = new Array(document.getElementById("ContentPlaceHolder1_RequiredFieldValidator1"), document.getElementById("ContentPlaceHolder1_RequiredFieldValidator2"), document.getElementById("ContentPlaceHolder1_RegularExpressionValidator2"), document.getElementById("ContentPlaceHolder1_RequiredFieldValidator3"), document.getElementById("ContentPlaceHolder1_RegularExpressionValidator1"), document.getElementById("ContentPlaceHolder1_RequiredFieldValidator4"), document.getElementById("ContentPlaceHolder1_RequiredFieldValidator5"));
-            //]]>
-        </script>
-
-        <script type="text/javascript">
-            //<![CDATA[
-            var ContentPlaceHolder1_RequiredFieldValidator1 = document.all ? document.all["ContentPlaceHolder1_RequiredFieldValidator1"] : document.getElementById("ContentPlaceHolder1_RequiredFieldValidator1");
-            ContentPlaceHolder1_RequiredFieldValidator1.controltovalidate = "ContentPlaceHolder1_textbox1";
-            ContentPlaceHolder1_RequiredFieldValidator1.errormessage = "*";
-            ContentPlaceHolder1_RequiredFieldValidator1.validationGroup = "a";
-            ContentPlaceHolder1_RequiredFieldValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
-            ContentPlaceHolder1_RequiredFieldValidator1.initialvalue = "";
-            var ContentPlaceHolder1_RequiredFieldValidator2 = document.all ? document.all["ContentPlaceHolder1_RequiredFieldValidator2"] : document.getElementById("ContentPlaceHolder1_RequiredFieldValidator2");
-            ContentPlaceHolder1_RequiredFieldValidator2.controltovalidate = "ContentPlaceHolder1_textbox2";
-            ContentPlaceHolder1_RequiredFieldValidator2.errormessage = "*";
-            ContentPlaceHolder1_RequiredFieldValidator2.validationGroup = "a";
-            ContentPlaceHolder1_RequiredFieldValidator2.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
-            ContentPlaceHolder1_RequiredFieldValidator2.initialvalue = "";
-            var ContentPlaceHolder1_RegularExpressionValidator2 = document.all ? document.all["ContentPlaceHolder1_RegularExpressionValidator2"] : document.getElementById("ContentPlaceHolder1_RegularExpressionValidator2");
-            ContentPlaceHolder1_RegularExpressionValidator2.controltovalidate = "ContentPlaceHolder1_textbox2";
-            ContentPlaceHolder1_RegularExpressionValidator2.errormessage = "Enter valid Email ID";
-            ContentPlaceHolder1_RegularExpressionValidator2.display = "Dynamic";
-            ContentPlaceHolder1_RegularExpressionValidator2.validationGroup = "a";
-            ContentPlaceHolder1_RegularExpressionValidator2.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
-            ContentPlaceHolder1_RegularExpressionValidator2.validationexpression = "^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,3})+$";
-            var ContentPlaceHolder1_RequiredFieldValidator3 = document.all ? document.all["ContentPlaceHolder1_RequiredFieldValidator3"] : document.getElementById("ContentPlaceHolder1_RequiredFieldValidator3");
-            ContentPlaceHolder1_RequiredFieldValidator3.controltovalidate = "ContentPlaceHolder1_textbox3";
-            ContentPlaceHolder1_RequiredFieldValidator3.errormessage = "*";
-            ContentPlaceHolder1_RequiredFieldValidator3.validationGroup = "a";
-            ContentPlaceHolder1_RequiredFieldValidator3.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
-            ContentPlaceHolder1_RequiredFieldValidator3.initialvalue = "";
-            var ContentPlaceHolder1_RegularExpressionValidator1 = document.all ? document.all["ContentPlaceHolder1_RegularExpressionValidator1"] : document.getElementById("ContentPlaceHolder1_RegularExpressionValidator1");
-            ContentPlaceHolder1_RegularExpressionValidator1.controltovalidate = "ContentPlaceHolder1_textbox3";
-            ContentPlaceHolder1_RegularExpressionValidator1.errormessage = "Enter valid No.";
-            ContentPlaceHolder1_RegularExpressionValidator1.display = "Dynamic";
-            ContentPlaceHolder1_RegularExpressionValidator1.validationGroup = "a";
-            ContentPlaceHolder1_RegularExpressionValidator1.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
-            ContentPlaceHolder1_RegularExpressionValidator1.validationexpression = "^\\d{10}$";
-            var ContentPlaceHolder1_RequiredFieldValidator4 = document.all ? document.all["ContentPlaceHolder1_RequiredFieldValidator4"] : document.getElementById("ContentPlaceHolder1_RequiredFieldValidator4");
-            ContentPlaceHolder1_RequiredFieldValidator4.controltovalidate = "ContentPlaceHolder1_image";
-            ContentPlaceHolder1_RequiredFieldValidator4.errormessage = "*";
-            ContentPlaceHolder1_RequiredFieldValidator4.validationGroup = "a";
-            ContentPlaceHolder1_RequiredFieldValidator4.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
-            ContentPlaceHolder1_RequiredFieldValidator4.initialvalue = "";
-            var ContentPlaceHolder1_RequiredFieldValidator5 = document.all ? document.all["ContentPlaceHolder1_RequiredFieldValidator5"] : document.getElementById("ContentPlaceHolder1_RequiredFieldValidator5");
-            ContentPlaceHolder1_RequiredFieldValidator5.controltovalidate = "ContentPlaceHolder1_textbox4";
-            ContentPlaceHolder1_RequiredFieldValidator5.errormessage = "*";
-            ContentPlaceHolder1_RequiredFieldValidator5.validationGroup = "a";
-            ContentPlaceHolder1_RequiredFieldValidator5.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
-            ContentPlaceHolder1_RequiredFieldValidator5.initialvalue = "";
-            //]]>
-        </script>
-
-
-        <script type="text/javascript">
-            //<![CDATA[
-
-            var Page_ValidationActive = false;
-            if (typeof (ValidatorOnLoad) == "function") {
-                ValidatorOnLoad();
-            }
-
-            function ValidatorOnSubmit() {
-                if (Page_ValidationActive) {
-                    return ValidatorCommonOnSubmit();
-                }
-                else {
-                    return true;
-                }
-            }
-            //]]>
-        </script>
     </form>
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/jquery-migrate-3.0.1.min.js"></script>
@@ -507,6 +747,6 @@
     </div>
 </body>
 
-<!-- Mirrored from srihariomtravels.com/Testimonials.aspx by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Oct 2025 10:12:00 GMT -->
+<!-- Mirrored from srihariomtravels.com/Gallery.aspx by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Oct 2025 10:11:56 GMT -->
 
 </html>

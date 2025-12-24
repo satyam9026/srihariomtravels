@@ -2,13 +2,249 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-<!-- Mirrored from srihariomtravels.com/Testimonials.aspx by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Oct 2025 10:12:00 GMT -->
+<!-- Mirrored from srihariomtravels.com/Gallery.aspx by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Oct 2025 10:11:46 GMT -->
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<style>
+    /* Section Wrapper */
+    #pto-main-section {
+        padding: 30px 15px;
+    }
+
+    /* Container */
+    #pto-container {
+        max-width: 1100px;
+        margin: auto;
+        background: #ffffff;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.06);
+    }
+
+    /* Main Heading */
+    .pto-main-heading {
+        font-size: 2.4rem;
+        color: #1c2c4c;
+        margin-bottom: 25px;
+    }
+
+    /* Sub Heading */
+    .pto-sub-heading {
+        font-size: 1.8rem;
+        color: #e85c00;
+        margin-top: 35px;
+        margin-bottom: 15px;
+    }
+
+    /* Text */
+    .pto-text {
+        font-size: 1.05rem;
+        line-height: 1.8;
+        color: #444;
+        margin-bottom: 15px;
+    }
+
+    /* Feature List */
+    .pto-feature-list {
+        list-style: none;
+        padding-left: 0;
+        margin: 15px 0 20px 0;
+    }
+
+    .pto-feature-list li {
+        position: relative;
+        padding-left: 26px;
+        margin-bottom: 10px;
+        font-size: 1.05rem;
+        color: #333;
+    }
+
+    .pto-feature-list li::before {
+        content: "✔";
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: #ff6a00;
+        font-weight: bold;
+    }
+
+    /* Place Box */
+    .pto-place-box {
+        background: #f7f7f7;
+        padding: 18px 22px;
+        border-left: 4px solid #ff6a00;
+        border-radius: 5px;
+        margin-bottom: 18px;
+    }
+
+    /* Place Title */
+    .pto-place-title {
+        font-size: 1.3rem;
+        color: #222;
+        margin-bottom: 6px;
+    }
+
+    /* Responsive */
+    @media (max-width: 992px) {
+        #pto-container {
+            padding: 30px;
+        }
+
+        .pto-main-heading {
+            font-size: 2rem;
+        }
+
+        .pto-sub-heading {
+            font-size: 1.6rem;
+        }
+    }
+
+    @media (max-width: 576px) {
+        #pto-container {
+            padding: 22px;
+        }
+
+        .pto-main-heading {
+            font-size: 1.7rem;
+        }
+
+        .pto-sub-heading {
+            font-size: 1.4rem;
+        }
+
+        .pto-place-title {
+            font-size: 1.15rem;
+        }
+
+        .pto-text,
+        .pto-feature-list li {
+            font-size: 0.95rem;
+        }
+    }
+
+    /* Section Wrapper */
+    #pto-extra-info-section {
+        padding: 30px 15px;
+    }
+
+    /* Container */
+    #pto-extra-info-container {
+        max-width: 1100px;
+        margin: auto;
+        background: #f9fafb;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    }
+
+    /* Sacred Note */
+    .pto-sacred-note {
+        background: #fff3e0;
+        color: #b85c00;
+        padding: 12px 18px;
+        border-left: 4px solid #ff6a00;
+        margin-bottom: 25px;
+        font-weight: 500;
+    }
+
+    /* Headings */
+    .pto-section-heading {
+        font-size: 1.9rem;
+        color: #1c2c4c;
+        margin-top: 35px;
+        margin-bottom: 15px;
+    }
+
+    /* Text */
+    .pto-text {
+        font-size: 1.05rem;
+        line-height: 1.8;
+        color: #444;
+        margin-bottom: 12px;
+    }
+
+    /* Package List */
+    .pto-package-list {
+        list-style: none;
+        padding-left: 0;
+        margin: 15px 0 20px 0;
+    }
+
+    .pto-package-list li {
+        position: relative;
+        padding-left: 26px;
+        margin-bottom: 10px;
+        font-size: 1.05rem;
+        color: #333;
+    }
+
+    .pto-package-list li::before {
+        content: "✔";
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: #ff6a00;
+        font-weight: bold;
+    }
+
+    /* Notes */
+    .pto-note-text {
+        font-size: 0.95rem;
+        color: #666;
+        font-style: italic;
+        margin-bottom: 10px;
+    }
+
+    /* Summary */
+    .pto-summary-text {
+        font-size: 1.05rem;
+        color: #444;
+        line-height: 1.8;
+        margin-bottom: 12px;
+    }
+
+    .pto-highlight-summary {
+        font-size: 1.1rem;
+        font-weight: 500;
+        color: #e85c00;
+        margin-top: 20px;
+    }
+
+    /* Responsive */
+    @media (max-width: 992px) {
+        #pto-extra-info-container {
+            padding: 30px;
+        }
+
+        .pto-section-heading {
+            font-size: 1.6rem;
+        }
+    }
+
+    @media (max-width: 576px) {
+        #pto-extra-info-container {
+            padding: 22px;
+        }
+
+        .pto-section-heading {
+            font-size: 1.4rem;
+        }
+
+        .pto-text,
+        .pto-package-list li,
+        .pto-summary-text {
+            font-size: 0.95rem;
+        }
+
+        .pto-highlight-summary {
+            font-size: 1rem;
+        }
+    }
+</style>
 
 <head>
     <title>
-        Customer Testimonial
+        Sri Hari Om Travels
     </title>
     <meta charset="utf-8" />
     <meta name="title" content="Nepal Tour Package  From Gorakhpur" />
@@ -61,77 +297,18 @@
     </script>
 
 
-    <script src="../www.google.com/recaptcha/api8c9b.js?onload=renderRecaptcha&amp;render=explicit"></script>
-    <script type="text/javascript">
-        var your_site_key = '6LdDUS8qAAAAAOrd_1y0qaJ_KHemrpWfcEJRC4rJ';
-        //var your_site_key = '6LeyUi8qAAAAAGb_qEqxZKOyFupISJ0M2ceIKLW8';
-        var renderRecaptcha = function () {
-            grecaptcha.render('ReCaptchContainer', {
-                'sitekey': '6LdDUS8qAAAAAOrd_1y0qaJ_KHemrpWfcEJRC4rJ',
-                //'sitekey': '6LeyUi8qAAAAAGb_qEqxZKOyFupISJ0M2ceIKLW8',
-                'callback': reCaptchaCallback,
-                theme: 'light', //light or dark
-                type: 'image', // image or audio
-                size: 'normal'//normal or compact
-            });
-        };
-        var reCaptchaCallback = function (response) {
-            if (response !== '') {
-                document.getElementById('lblMessage1').Text = "Invalid captcha";
-            }
-        };
-    </script>
 </head>
 
 <body>
-    <form method="post" action="https://srihariomtravels.com/Testimonials.aspx"
-        onsubmit="javascript:return WebForm_OnSubmit();" id="form1" enctype="multipart/form-data">
+    <form method="post" action="https://srihariomtravels.com/Gallery.aspx" id="form1">
         <div class="aspNetHidden">
-            <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
-            <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
             <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE"
-                value="gr0wY/Fh2Vf5MGu4fBT2OEJin0sosj7BjbZ66ChXHSXolRCP/8KBlKyOIc6mxqzaQ5gziIcolBrlkAVixLpDhEDJ26VtWlhjrCuYmYGPgNPFy+KaBOis8ILpf9NcJd0DOdgKLrn/sysuM6PY+WU6nA==" />
+                value="T2jE8mxUMqi6upLWMFfn1QNov2vbzTY0MxA1nIqNWVApz/DYroeVZMa9xasXFboyLlLGJO0drQTisYwaIggqpZpoyH+hDcm27kZC82Y7ulgdPLud+YJMgqJ/HO3kY/+d6UIGQ08aAnbf5rYIbtJuko4qDWiH2CMVyTjlnLRvlLIWhUWJW5pRFKcJ44XfYtqMOcf0d6oz0CIWZSJWOsga3hSPwNcFqoARIYqOiGiJVWktiVzVMu1xh8Irrle3KsMBnC0QTSIFbpAsfLAYUZoQ88nO0makGiyhiIGb7o07ip9LWm36Z5wPCJHCDyPqfQ3TDR7eTmpiQ/hDfQU7ghCcqu3FdD1q81sm3twmCqTTUTM3//DGkvjb7ENgX6dhBxgj7gL7bjuABKuxVqjfiJG6Cy4Qs0C7UedYe+TYFHJb570VII/0NKjGx0CEXNmeHJ1HuhJ91SI0X6PIT1DgXkyxBIV9NfkIEYXPhuLlKX55YeAC63ux21J+VdIP379amcBT8oh3Da77Gw7KQ0odffmHwFTaZw0vLWu+aM/vwR0eTrHuYE2prhNkjIukwfXKLAK2tcur5ZV+N8spXyM1BWZxZGq1Xt24tesfB2AMHWUY7JL0F0EI7UcX4JS2x7SLAPhF3S3es8nKZxb8nbeq+M27gFybjVGIvI9IjLAmzA5+npcdZYYD/iP7iSqpnhF8VnedAO5sCI4XyDr0M0BuxMY9n/xGq3MUD1EMn+DwvVyDWMA=" />
         </div>
 
-        <script type="text/javascript">
-            //<![CDATA[
-            var theForm = document.forms['form1'];
-            if (!theForm) {
-                theForm = document.form1;
-            }
-            function __doPostBack(eventTarget, eventArgument) {
-                if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
-                    theForm.__EVENTTARGET.value = eventTarget;
-                    theForm.__EVENTARGUMENT.value = eventArgument;
-                    theForm.submit();
-                }
-            }
-            //]]>
-        </script>
-
-
-        <script
-            src="WebResource5726.js?d=pynGkmcFUV13He1Qd6_TZI4B29FnJg0DZN6DtGe8xuU2w07Ob7ZjXrmeaSnSXTAfRJIFSseQuNvABQrXKLlzKg2&amp;t=638901284248157332"
-            type="text/javascript"></script>
-
-
-        <script
-            src="WebResource8b8e.js?d=x2nkrMJGXkMELz33nwnakKB5t_Z4WzeP6k9CwD_3ERlStvxl4CN8EdfArfFdQkQbYh64WBXGmzVDwHcv8KI3Jswpq4hIGbqTiW1d0vxa-YU1&amp;t=638901284248157332"
-            type="text/javascript"></script>
-        <script type="text/javascript">
-            //<![CDATA[
-            function WebForm_OnSubmit() {
-                if (typeof (ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
-                return true;
-            }
-            //]]>
-        </script>
-
         <div class="aspNetHidden">
 
-            <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="35E74FE0" />
-            <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION"
-                value="b/Bu3uNCuZtYNl6vyOKmtrQkg9i69LhogQLapCE5Nan6zEw8LH81ApsKA2JLe1ncSjBUXz62gcMFm+fzpEwguTkof/mqqxsaanweEHIsu75ncJuokN3NuQ9ALs8fRxP03zc2jHc+GTru8UkP14xc/A1B+ZR9eZ9fPJskR3BRfvkBOfzNA5q+urubWicTUJU/VijQrM8WgMmo2eFb//9DEg==" />
+            <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="5EAD16E3" />
         </div>
         <div class="site-wrap">
 
@@ -169,6 +346,8 @@
                                 <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="Aboutus.html">About</a></li>
+
+                                    <!-- Services Dropdown -->
                                     <li class="has-children">
                                         <a href="Services.html">Tour Packages</a>
                                         <ul class="dropdown">
@@ -232,80 +411,173 @@
 
 
             <div class="site-blocks-cover inner-page-cover"
-                style="background-image: url('assets/images/kathmandu-to-nagarkot.jpg');" data-aos="fade"
+                style="background-image: url(assets/images/prayagrajtour.jpg);" data-aos="fade"
                 data-stellar-background-ratio="0.5">
                 <div class="container">
                     <div class="row align-items-center justify-content-center text-center">
                         <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
-                            <h1 class="text-white font-weight-light">Testimonials-</h1>
+                            <h1 class="text-white font-weight-light">PRAYAGRAJ Tour</h1>
 
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <h1 class="p-4" style="color: orangered; text-align: center; font-weight: bold">"Give Testimonials"</h1>
-                <div class="p-5">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <span id="ContentPlaceHolder1_Label5" style="font-weight: bold;">Name</span>
-                            <span id="ContentPlaceHolder1_RequiredFieldValidator1"
-                                style="color:Red;visibility:hidden;">*</span>
-                            <input name="ctl00$ContentPlaceHolder1$textbox1" type="text"
-                                id="ContentPlaceHolder1_textbox1" class="form-control" Placeholder="Enter Your Name" />
-                            <br />
-                            <span id="ContentPlaceHolder1_Label6" style="font-weight: bold;">Email</span>
-                            <span id="ContentPlaceHolder1_RequiredFieldValidator2"
-                                style="color:Red;visibility:hidden;">*</span>
-                            <input name="ctl00$ContentPlaceHolder1$textbox2" type="text"
-                                id="ContentPlaceHolder1_textbox2" class="form-control"
-                                Placeholder="Enter Your Email ID" />
-                            <span id="ContentPlaceHolder1_RegularExpressionValidator2"
-                                style="color:Red;white-space:nowrap;display:none;">Enter valid Email ID</span>
-                            <br />
-                        </div>
-                        <div class="col-md-6">
-                            <span id="ContentPlaceHolder1_Label3" style="font-weight: bold;">Mobile No</span>
-                            <span id="ContentPlaceHolder1_RequiredFieldValidator3"
-                                style="color:Red;visibility:hidden;">*</span>
-                            <input name="ctl00$ContentPlaceHolder1$textbox3" type="number" maxlength="10"
-                                id="ContentPlaceHolder1_textbox3" class="form-control" Placeholder="Enter Mobile No." />
-                            <span id="ContentPlaceHolder1_RegularExpressionValidator1"
-                                style="color:Red;white-space:nowrap;display:none;">Enter valid No.</span>
-                            <br />
-                            <div class="form-group">
-                                <label style="font-weight: bold;">Upload Photo</label>
-                                <span id="ContentPlaceHolder1_RequiredFieldValidator4"
-                                    style="color:Red;visibility:hidden;">*</span>
-                                <input type="file" name="ctl00$ContentPlaceHolder1$image" id="ContentPlaceHolder1_image"
-                                    class="form-control" />
-                            </div>
-                        </div>
+
+            <section id="pto-main-section">
+                <div id="pto-container">
+
+                    <!-- Page Heading -->
+                    <h1 class="pto-main-heading">
+                        Prayagraj Tour Package from Gorakhpur – A Cultural & Holy Trip Plan
+                    </h1>
+
+                    <!-- Intro -->
+                    <p class="pto-text">
+                        Prayagraj is a very well renowned spiritual city in Uttar Pradesh. This city is famous for
+                        Triveni Sangam (Ganga + Yamuna + Saraswati confluence), rich Indian history, mesmerizing ghats,
+                        and ancient temples.
+                    </p>
+
+                    <p class="pto-text">
+                        There are several people from Gorakhpur who make a short trip to Prayagraj to unwind, pray
+                        and visit heritage spots. If you want a peaceful religious journey with comfort, then this
+                        Prayagraj Tour Package from Gorakhpur is a perfect idea.
+                    </p>
+
+                    <!-- Why Easy -->
+                    <h2 class="pto-sub-heading">Why this tour is easy from Gorakhpur?</h2>
+
+                    <p class="pto-text">
+                        The distance between Gorakhpur to Prayagraj is approximately 300 km. It is well connected by
+                        road. You can travel by car / traveler / AC tempo traveler and reach comfortably.
+                        Most tour operators provide:
+                    </p>
+
+                    <ul class="pto-feature-list">
+                        <li>Home pick-up and drop</li>
+                        <li>Comfortable vehicle</li>
+                        <li>Guided sightseeing</li>
+                    </ul>
+
+                    <p class="pto-text">
+                        So, travellers don’t need to plan routes or transport. Everything is managed by the tour
+                        company. This makes the trip stress-free.
+                    </p>
+
+                    <!-- Places -->
+                    <h2 class="pto-sub-heading">Main Places Covered in Prayagraj Tour</h2>
+
+                    <div class="pto-place-box">
+                        <h3 class="pto-place-title">1) Triveni Sangam</h3>
+                        <p class="pto-text">
+                            This is the top attraction. Here the holy rivers meet. People take holy dip, perform pooja,
+                            do Ganga snan and feel deep spiritual vibes.
+                        </p>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <span id="ContentPlaceHolder1_lbl3" style="font-weight: bold;">Your Message</span>
-                            <span id="ContentPlaceHolder1_RequiredFieldValidator5"
-                                style="color:Red;visibility:hidden;">*</span>
-                            <textarea name="ctl00$ContentPlaceHolder1$textbox4" rows="6" cols="20"
-                                id="ContentPlaceHolder1_textbox4" class="form-control" Placeholder="Enter Your Msg..">
-</textarea>
-                        </div>
+
+                    <div class="pto-place-box">
+                        <h3 class="pto-place-title">2) Bade Hanuman Ji Temple</h3>
+                        <p class="pto-text">
+                            Popular temple located near Sangam area. Crowd is always high but darshan gives a very
+                            peaceful feeling.
+                        </p>
                     </div>
+
+                    <div class="pto-place-box">
+                        <h3 class="pto-place-title">3) Anand Bhawan</h3>
+                        <p class="pto-text">
+                            Historical house of Nehru family. A museum is inside. Good place for history lovers.
+                        </p>
+                    </div>
+
+                    <div class="pto-place-box">
+                        <h3 class="pto-place-title">4) Akbar Fort</h3>
+                        <p class="pto-text">
+                            A beautiful old fort built by Emperor Akbar. It has amazing architecture and photography
+                            spots.
+                        </p>
+                    </div>
+
+                    <div class="pto-place-box">
+                        <h3 class="pto-place-title">5) Alopi Devi Temple</h3>
+                        <p class="pto-text">
+                            A very sacred Shakti Peeth temple. Devotees visit here to seek blessings and spiritual
+                            peace.
+                        </p>
+                    </div>
+
                 </div>
-            </div>
-            <div id="ReCaptchContainer"></div>
-            <span id="ContentPlaceHolder1_lblMessage1" style="color:Red;font-size:1em;font-weight:bold;"></span>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12" style="text-align: center">
-                        <input type="submit" name="ctl00$ContentPlaceHolder1$Button1" value="Send Testimonial"
-                            onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$Button1&quot;, &quot;&quot;, true, &quot;a&quot;, &quot;&quot;, false, false))"
-                            id="ContentPlaceHolder1_Button1" class="btn btn-lg btn-primary px-4 py-2 text-white" />
-                    </div>
+            </section>
+
+            <section id="pto-extra-info-section">
+                <div id="pto-extra-info-container">
+
+                    <!-- Sacred Note -->
+                    <p class="pto-sacred-note">
+                        One of the Shaktipeeths of India. This temple is very sacred.
+                    </p>
+
+                    <!-- Package Includes -->
+                    <h2 class="pto-section-heading">What is Usually Included in This Package?</h2>
+
+                    <ul class="pto-package-list">
+                        <li>Pickup from Gorakhpur</li>
+                        <li>AC vehicle transfer to Prayagraj</li>
+                        <li>Local sightseeing</li>
+                        <li>Sangam boat ride experience (optional)</li>
+                        <li>Temple visits</li>
+                        <li>One night stay (for 2 days package)</li>
+                        <li>Drop back to Gorakhpur</li>
+                    </ul>
+
+                    <p class="pto-note-text">
+                        Meals plan and VIP darshan can also be added in some tour packages (extra charges).
+                    </p>
+
+                    <!-- Best Time -->
+                    <h2 class="pto-section-heading">Best Time to Visit Prayagraj</h2>
+
+                    <p class="pto-text">
+                        You can visit anytime. However, October to March is best weather for comfortable experience.
+                    </p>
+
+                    <p class="pto-text">
+                        January–February me Magh Mela bhi hota hai jisse crowd zyada hota hai but experience grand hota
+                        hai.
+                    </p>
+
+                    <!-- Food & Shopping -->
+                    <h2 class="pto-section-heading">Food & Shopping in Prayagraj</h2>
+
+                    <p class="pto-text">
+                        Street foods like kachori-sabzi, lassi, chaat, rabdi are very famous.
+                    </p>
+
+                    <p class="pto-text">
+                        You can also buy religious items, rudraksha, brass items, idols and local crafts.
+                    </p>
+
+                    <!-- Final Summary -->
+                    <h2 class="pto-section-heading">Final Summary</h2>
+
+                    <p class="pto-summary-text">
+                        Prayagraj Tour Package from Gorakhpur gives you a chance to explore deep spirituality,
+                        Indian heritage and river culture in one single trip.
+                    </p>
+
+                    <p class="pto-summary-text">
+                        This tour is good for family trips, senior citizens, students and group tours.
+                        The journey is comfortable, places are beautiful and the entire experience gives
+                        new positive energy.
+                    </p>
+
+                    <p class="pto-highlight-summary">
+                        If you want a short religious holiday around Gorakhpur, then Prayagraj is an excellent choice.
+                    </p>
+
                 </div>
-                <br />
-            </div>
+            </section>
+
 
             <footer class="site-footer">
                 <div class="container">
@@ -379,88 +651,13 @@
                             <p>
                                 Copyright &copy;
                                 <script>document.write(new Date().getFullYear());</script>
-                                All rights reserved | <a href="" target="_blank"><span style="color: white;"></span></a>
+                                All rights reserved |<a href="" target="_blank"><span style="color: white;"></span></a>
                             </p>
                         </div>
                     </div>
                 </div>
             </footer>
         </div>
-
-        <script type="text/javascript">
-            //<![CDATA[
-            var Page_Validators = new Array(document.getElementById("ContentPlaceHolder1_RequiredFieldValidator1"), document.getElementById("ContentPlaceHolder1_RequiredFieldValidator2"), document.getElementById("ContentPlaceHolder1_RegularExpressionValidator2"), document.getElementById("ContentPlaceHolder1_RequiredFieldValidator3"), document.getElementById("ContentPlaceHolder1_RegularExpressionValidator1"), document.getElementById("ContentPlaceHolder1_RequiredFieldValidator4"), document.getElementById("ContentPlaceHolder1_RequiredFieldValidator5"));
-            //]]>
-        </script>
-
-        <script type="text/javascript">
-            //<![CDATA[
-            var ContentPlaceHolder1_RequiredFieldValidator1 = document.all ? document.all["ContentPlaceHolder1_RequiredFieldValidator1"] : document.getElementById("ContentPlaceHolder1_RequiredFieldValidator1");
-            ContentPlaceHolder1_RequiredFieldValidator1.controltovalidate = "ContentPlaceHolder1_textbox1";
-            ContentPlaceHolder1_RequiredFieldValidator1.errormessage = "*";
-            ContentPlaceHolder1_RequiredFieldValidator1.validationGroup = "a";
-            ContentPlaceHolder1_RequiredFieldValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
-            ContentPlaceHolder1_RequiredFieldValidator1.initialvalue = "";
-            var ContentPlaceHolder1_RequiredFieldValidator2 = document.all ? document.all["ContentPlaceHolder1_RequiredFieldValidator2"] : document.getElementById("ContentPlaceHolder1_RequiredFieldValidator2");
-            ContentPlaceHolder1_RequiredFieldValidator2.controltovalidate = "ContentPlaceHolder1_textbox2";
-            ContentPlaceHolder1_RequiredFieldValidator2.errormessage = "*";
-            ContentPlaceHolder1_RequiredFieldValidator2.validationGroup = "a";
-            ContentPlaceHolder1_RequiredFieldValidator2.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
-            ContentPlaceHolder1_RequiredFieldValidator2.initialvalue = "";
-            var ContentPlaceHolder1_RegularExpressionValidator2 = document.all ? document.all["ContentPlaceHolder1_RegularExpressionValidator2"] : document.getElementById("ContentPlaceHolder1_RegularExpressionValidator2");
-            ContentPlaceHolder1_RegularExpressionValidator2.controltovalidate = "ContentPlaceHolder1_textbox2";
-            ContentPlaceHolder1_RegularExpressionValidator2.errormessage = "Enter valid Email ID";
-            ContentPlaceHolder1_RegularExpressionValidator2.display = "Dynamic";
-            ContentPlaceHolder1_RegularExpressionValidator2.validationGroup = "a";
-            ContentPlaceHolder1_RegularExpressionValidator2.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
-            ContentPlaceHolder1_RegularExpressionValidator2.validationexpression = "^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,3})+$";
-            var ContentPlaceHolder1_RequiredFieldValidator3 = document.all ? document.all["ContentPlaceHolder1_RequiredFieldValidator3"] : document.getElementById("ContentPlaceHolder1_RequiredFieldValidator3");
-            ContentPlaceHolder1_RequiredFieldValidator3.controltovalidate = "ContentPlaceHolder1_textbox3";
-            ContentPlaceHolder1_RequiredFieldValidator3.errormessage = "*";
-            ContentPlaceHolder1_RequiredFieldValidator3.validationGroup = "a";
-            ContentPlaceHolder1_RequiredFieldValidator3.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
-            ContentPlaceHolder1_RequiredFieldValidator3.initialvalue = "";
-            var ContentPlaceHolder1_RegularExpressionValidator1 = document.all ? document.all["ContentPlaceHolder1_RegularExpressionValidator1"] : document.getElementById("ContentPlaceHolder1_RegularExpressionValidator1");
-            ContentPlaceHolder1_RegularExpressionValidator1.controltovalidate = "ContentPlaceHolder1_textbox3";
-            ContentPlaceHolder1_RegularExpressionValidator1.errormessage = "Enter valid No.";
-            ContentPlaceHolder1_RegularExpressionValidator1.display = "Dynamic";
-            ContentPlaceHolder1_RegularExpressionValidator1.validationGroup = "a";
-            ContentPlaceHolder1_RegularExpressionValidator1.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
-            ContentPlaceHolder1_RegularExpressionValidator1.validationexpression = "^\\d{10}$";
-            var ContentPlaceHolder1_RequiredFieldValidator4 = document.all ? document.all["ContentPlaceHolder1_RequiredFieldValidator4"] : document.getElementById("ContentPlaceHolder1_RequiredFieldValidator4");
-            ContentPlaceHolder1_RequiredFieldValidator4.controltovalidate = "ContentPlaceHolder1_image";
-            ContentPlaceHolder1_RequiredFieldValidator4.errormessage = "*";
-            ContentPlaceHolder1_RequiredFieldValidator4.validationGroup = "a";
-            ContentPlaceHolder1_RequiredFieldValidator4.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
-            ContentPlaceHolder1_RequiredFieldValidator4.initialvalue = "";
-            var ContentPlaceHolder1_RequiredFieldValidator5 = document.all ? document.all["ContentPlaceHolder1_RequiredFieldValidator5"] : document.getElementById("ContentPlaceHolder1_RequiredFieldValidator5");
-            ContentPlaceHolder1_RequiredFieldValidator5.controltovalidate = "ContentPlaceHolder1_textbox4";
-            ContentPlaceHolder1_RequiredFieldValidator5.errormessage = "*";
-            ContentPlaceHolder1_RequiredFieldValidator5.validationGroup = "a";
-            ContentPlaceHolder1_RequiredFieldValidator5.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
-            ContentPlaceHolder1_RequiredFieldValidator5.initialvalue = "";
-            //]]>
-        </script>
-
-
-        <script type="text/javascript">
-            //<![CDATA[
-
-            var Page_ValidationActive = false;
-            if (typeof (ValidatorOnLoad) == "function") {
-                ValidatorOnLoad();
-            }
-
-            function ValidatorOnSubmit() {
-                if (Page_ValidationActive) {
-                    return ValidatorCommonOnSubmit();
-                }
-                else {
-                    return true;
-                }
-            }
-            //]]>
-        </script>
     </form>
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/jquery-migrate-3.0.1.min.js"></script>
@@ -507,6 +704,6 @@
     </div>
 </body>
 
-<!-- Mirrored from srihariomtravels.com/Testimonials.aspx by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Oct 2025 10:12:00 GMT -->
+<!-- Mirrored from srihariomtravels.com/Gallery.aspx by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Oct 2025 10:11:56 GMT -->
 
 </html>
